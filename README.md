@@ -1,12 +1,12 @@
 # Cybersecurity Internship - Task 1: Local Network Port Scan
 
 ## 1. Objective
-[cite_start]To map and discover open logical ports and active services within a local network to understand exposure risks, protocol mechanics, and the attack surface of an internal environment[cite: 6, 16].
+To map and discover open logical ports and active services within a local network to understand exposure risks, protocol mechanics, and the attack surface of an internal environment[cite: 6, 16].
 
 ## 2. Methodology and Tools
-* [cite_start]**Tool Used:** Nmap (v7.99) command-line interface, executed natively with administrative privileges on the primary Windows host
-* [cite_start]**Command Executed:** `nmap -sS -v -oN C:\Users\Public\Desktop\result_scan.txt 192.168.X.X/24`
-* [cite_start]**Network Mapping:** Scan performed across a sample space of 256 local IPv4 addresses (`/24`)
+**Tool Used:** Nmap (v7.99) command-line interface, executed natively with administrative privileges on the primary Windows host
+**Command Executed:** `nmap -sS -v -oN C:\Users\Public\Desktop\result_scan.txt 192.168.X.X/24`
+**Network Mapping:** Scan performed across a sample space of 256 local IPv4 addresses (`/24`)
 
 ---
 
