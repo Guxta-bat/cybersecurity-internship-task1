@@ -1,5 +1,5 @@
-# Nmap 7.99 scan initiated Mon Jun 29 12:53:37 2026 as: nmap -sS -v -oN C:\\Users\\Public\\Desktop\\result_scan.txt 192.168.0.0/24
-Increasing send delay for 192.168.0.10 from 0 to 5 due to 11 out of 20 dropped probes since last increase.
+# Nmap 7.99 scan initiated Mon Jun 29 12:53:37 2026 as: nmap -sS -v -oN C:\\Users\\Public\\Desktop\\result_scan.txt 192.168.X.X/24
+Increasing send delay for 192.168.X.X from 0 to 5 due to 11 out of 20 dropped probes since last increase.
 Nmap scan report for 192.168.0.0 [host down]
 Nmap scan report for 192.168.0.2 [host down]
 Nmap scan report for 192.168.0.3 [host down]
@@ -253,7 +253,7 @@ Nmap scan report for 192.168.0.252 [host down]
 Nmap scan report for 192.168.0.253 [host down]
 Nmap scan report for 192.168.0.254 [host down]
 Nmap scan report for 192.168.0.255 [host down]
-Nmap scan report for 192.168.0.1
+Nmap scan report for 192.168.0.X
 Host is up (0.0050s latency).
 Not shown: 995 closed tcp ports (reset)
 PORT     STATE    SERVICE
@@ -264,13 +264,13 @@ PORT     STATE    SERVICE
 5000/tcp open     upnp
 MAC Address: 06:02:B8:DB:FA:04 (Unknown)
 
-Nmap scan report for 192.168.0.10
+Nmap scan report for 192.168.X.X
 Host is up (0.0085s latency).
-All 1000 scanned ports on 192.168.0.10 are in ignored states.
+All 1000 scanned ports on 192.168.X.X are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: 30:42:40:91:EB:28 (zte)
 
-Nmap scan report for 192.168.0.90
+Nmap scan report for 192.168.X.XX
 Host is up (0.0011s latency).
 Not shown: 995 closed tcp ports (reset)
 PORT     STATE SERVICE
