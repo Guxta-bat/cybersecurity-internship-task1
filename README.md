@@ -4,9 +4,9 @@
 [cite_start]To map and discover open logical ports and active services within a local network to understand exposure risks, protocol mechanics, and the attack surface of an internal environment[cite: 6, 16].
 
 ## 2. Methodology and Tools
-* [cite_start]**Tool Used:** Nmap (v7.99) command-line interface, executed natively with administrative privileges on the primary Windows host[cite: 7, 11].
-* [cite_start]**Command Executed:** `nmap -sS -v -oN C:\Users\Public\Desktop\result_scan.txt 192.168.0.0/24` [cite: 11, 14]
-* [cite_start]**Network Mapping:** Scan performed across a sample space of 256 local IPv4 addresses (`/24`)[cite: 10].
+* [cite_start]**Tool Used:** Nmap (v7.99) command-line interface, executed natively with administrative privileges on the primary Windows host
+* [cite_start]**Command Executed:** `nmap -sS -v -oN C:\Users\Public\Desktop\result_scan.txt 192.168.X.X/24`
+* [cite_start]**Network Mapping:** Scan performed across a sample space of 256 local IPv4 addresses (`/24`)
 
 ---
 
@@ -15,10 +15,10 @@
 ```text
 # Nmap 7.99 scan initiated Mon Jun 29 12:53:37 2026 as: nmap -sS -v -oN C:\\Users\\Public\\Desktop\\result_scan.txt 192.168.0.0/24
 Increasing send delay for 192.168.0.X from 0 to 5 due to 11 out of 20 dropped probes since last increase.
-Nmap scan report for 192.168.0.0 [host down]
-... [Hosts from 192.168.0.2 to 192.168.0.255 marked as down have been omitted for clarity] ...
+Nmap scan report for 192.168.0.X [host down]
+... [Hosts from 192.168.0.2 to 192.168.X.X marked as down have been omitted for clarity] ...
 
-Nmap scan report for 192.168.0.X (Gateway / Router Device)
+Nmap scan report for 192.168.X.X (Gateway / Router Device)
 Host is up (0.0050s latency).
 Not shown: 995 closed tcp ports (reset)
 PORT     STATE    SERVICE
@@ -29,9 +29,9 @@ PORT     STATE    SERVICE
 5000/tcp open     upnp
 MAC Address: 06:02:B8:XX:XX:XX (Protected)
 
-Nmap scan report for 192.168.0.X (ZTE Internal Device)
+Nmap scan report for 192.168.X.X (ZTE Internal Device)
 Host is up (0.0085s latency).
-All 1000 scanned ports on 192.168.0.X are in ignored states.
+All 1000 scanned ports on 192.168.X.X are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: 30:42:40:XX:XX:XX (Protected)
 
